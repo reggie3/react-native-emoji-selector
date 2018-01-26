@@ -338,6 +338,7 @@ export default class EmojiSelector extends Component {
             this.state.searchQuery !== nextState.searchQuery ||
             this.state.history !== nextState.history ||
             this.state.emojiList !== nextState.emojiList
+            || this.state.isReady !== nextState.isReady
         )
             return true;
         return false;
